@@ -18,10 +18,10 @@ import java.nio.charset.StandardCharsets;
  * https://stackoverflow.com/questions/1823264/quickest-way-to-convert-xml-to-json-in-java
  */
 
-public class XmlUtils  implements Service {
+public class XmlUtils implements Service {
     @Action(name = "XmlAttachmentToJson", scope = Scope.PUBLIC)
     public String XmlAttachmentToJson(@ActionParameter(name = "xmlAttachment") @NotNull Attachment xmlAttachment,
-                                          @ActionParameter(name = "maxIndentation") int maxIndentation) {
+                                      @ActionParameter(name = "maxIndentation") int maxIndentation) {
         String xmlText = "";
         String jsonString = "";
         int indentation = maxIndentation > 0 ? maxIndentation : 4;
