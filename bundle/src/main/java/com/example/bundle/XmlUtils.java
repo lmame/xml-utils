@@ -12,9 +12,13 @@ import org.json.XML;
 import javax.validation.constraints.NotNull;
 import java.nio.charset.StandardCharsets;
 
+/**
+ * Sources:
+ * https://mkyong.com/java/how-do-convert-byte-array-to-string-in-java/
+ * https://stackoverflow.com/questions/1823264/quickest-way-to-convert-xml-to-json-in-java
+ */
+
 public class XmlUtils  implements Service {
-
-
     @Action(name = "XmlAttachmentToJson", scope = Scope.PUBLIC)
     public String XmlAttachmentToJson(@ActionParameter(name = "xmlAttachment") @NotNull Attachment xmlAttachment,
                                           @ActionParameter(name = "maxIndentation") int maxIndentation) {
