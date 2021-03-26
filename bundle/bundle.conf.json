@@ -1,0 +1,63 @@
+{
+    "bundle": {
+        "id": "com.example.xmlutils",
+        "version": "0.0.1",
+        "src": "./src/main/webapp",
+        "target": "./target/web-build/webapp",
+        "coverage": "./target/coverage",
+        "resources": [
+            "./",
+			"$RX_SDK_HOME/standardlib"
+        ],
+        "options": {
+            "livereload-port": 39005,
+            "skip-tests": true,
+            "skip-validation": true,
+            "api-host": "localhost",
+            "api-port": 8008,
+            "api-https": false,
+            "host": "localhost",
+            "port": 9005
+        },
+        "packages": {
+            "lib": {
+                "scripts": [],
+                "styles": []
+            },
+            "app": {
+                "scripts": [
+                    "scripts/**/*.global",
+                    "scripts/**/*.module",
+                    "scripts/**/*.config",
+                    "scripts/**/*.routes",
+                    "scripts/**/*.constant",
+                    "scripts/**/*.filter",
+                    "scripts/**/*.value",
+                    "scripts/**/*.run",
+                    "scripts/**/*.service",
+                    "scripts/**/*.class",
+                    "scripts/**/*.directive",
+                    "scripts/**/*.controller",
+                    "scripts/**/*.resource",
+                    "!scripts/*",
+                    "scripts/com.example.xmlutils.module",
+                    "scripts/*"
+                ],
+                "styles": [
+                    "resources/sass/com.example.xmlutils"
+                ],
+                "templates": [
+                    "scripts/**/*.html"
+                ]
+            },
+            "ext": {
+                "scripts": [
+                ],
+                "styles": [
+                ],
+                "templates": [
+                ]
+            }
+        }
+    }
+}

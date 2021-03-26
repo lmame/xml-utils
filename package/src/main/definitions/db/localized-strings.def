@@ -1,0 +1,91 @@
+begin localizable string
+   name           : LSGADG1AANVNMAQQ9THJQQ9THJM93U
+   timestamp      : 1616715019
+   owner          : developer
+   bundle-version : 1.0-SNAPSHOT
+   last-changed   : developer
+   bundle         : com.example.xmlutils
+   stringId       : 9505e10d-232e-48de-a863-9a8b62b9573c
+   owner-objects  : 35\0
+   object-prop    : 3\60079\0\90016\4\1\1\90015\2\4\
+   locale         : default
+   string-text    : Not Listening
+end
+begin localizable string
+   name           : LSGADG1AANVNMAQQ9THJQQ9THJM93Q
+   timestamp      : 1616715019
+   owner          : developer
+   bundle-version : 1.0-SNAPSHOT
+   last-changed   : developer
+   bundle         : com.example.xmlutils
+   stringId       : 60297c8e-c5e8-48f2-8258-cf73390a917e
+   owner-objects  : 35\0
+   object-prop    : 3\60079\0\90016\4\1\1\90015\2\4\
+   locale         : default
+   string-text    : Assigned
+end
+begin localizable string
+   name           : LSGADG1AANVNMAQQ9THJQQ9THJM93V
+   timestamp      : 1616715020
+   owner          : developer
+   bundle-version : 1.0-SNAPSHOT
+   last-changed   : developer
+   bundle         : com.example.xmlutils
+   stringId       : 5b613bd1-888c-4b25-b208-e373cfa0991a
+   owner-objects  : 35\0
+   object-prop    : 3\60079\0\90016\4\1\1\90015\2\4\
+   locale         : default
+   string-text    : Listening
+end
+begin localizable string
+   name           : LSGADG1AANVNMAQQ9THJQQ9THJM93T
+   timestamp      : 1616715019
+   owner          : developer
+   bundle-version : 1.0-SNAPSHOT
+   last-changed   : developer
+   bundle         : com.example.xmlutils
+   stringId       : 5b5ae365-8c58-424e-ac0c-e82efc47c617
+   owner-objects  : 35\0
+   object-prop    : 3\60079\0\90016\4\1\1\90015\2\4\
+   locale         : default
+   string-text    : Closed
+end
+begin localizable string
+   name           : LSGADG1AANVNMAQQ9THJQQ9THJM93S
+   timestamp      : 1616715019
+   owner          : developer
+   bundle-version : 1.0-SNAPSHOT
+   last-changed   : developer
+   bundle         : com.example.xmlutils
+   stringId       : 548e7110-199f-44ff-8333-3dcd7f476f8e
+   owner-objects  : 35\0
+   object-prop    : 3\60079\0\90016\4\1\1\90015\2\4\
+   locale         : default
+   string-text    : Rejected
+end
+begin localizable string
+   name           : LSGADG1AANVNMAQQ9THJQQ9THJM93P
+   timestamp      : 1616715019
+   owner          : developer
+   bundle-version : 1.0-SNAPSHOT
+   last-changed   : developer
+   bundle         : com.example.xmlutils
+   stringId       : 4ca6dec7-c532-4dc9-8147-0f353ec0c340
+   owner-objects  : 35\0
+   object-prop    : 3\60079\0\90016\4\1\1\90015\2\4\
+   locale         : default
+   string-text    : New
+end
+begin localizable string
+   name           : LSGADG1AANVNMAQQ9THJQQ9THJM93R
+   timestamp      : 1616715019
+   owner          : developer
+   bundle-version : 1.0-SNAPSHOT
+   last-changed   : developer
+   bundle         : com.example.xmlutils
+   stringId       : 0fdcd704-8529-4716-b411-5260ed79527e
+   owner-objects  : 35\0
+   object-prop    : 3\60079\0\90016\4\1\1\90015\2\4\
+   locale         : default
+   string-text    : Fixed
+end
